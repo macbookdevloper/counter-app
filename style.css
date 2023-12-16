@@ -1,0 +1,41 @@
+.mainClass{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.text{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.main-contant{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    margin: 15px;
+    
+}
+
+.incremnt{
+    border: none;
+    border-right: 2px solid black;
+    font-size: 30px;
+}
+
+.decremnt{
+    border: none;
+    border-left: 2px solid black;
+    font-size: 30px;
+}
+
+.result{
+   
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
